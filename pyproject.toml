@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "evp"
+version = "0.1.0"
+description = "Evolvability of Population"
+authors = ["Michal Strzezon <mstrzezon@gmail.com>", "Pawel Magnuszewski <pawel.magnu@gmail.com>", "Tomasz Turek <t.turek2000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "1.26.4"
+cma = "4.0.0"
+matplotlib = "3.9.3"
+pandas = "2.2.3"
+river = "0.22.0"
+scikit-learn = "1.5.2"
+tqdm = "4.67.1"
+ioh = "0.3.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

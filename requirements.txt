@@ -1,0 +1,8 @@
+numpy==1.26.4
+cma==4.0.0
+matplotlib==3.9.3
+pandas==2.2.3
+river==0.22.0
+scikit-learn==1.5.2
+tqdm==4.67.1
+ioh==0.3.18
